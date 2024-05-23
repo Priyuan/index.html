@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary-color:#12ac8e;
+    --primary-color-dark:#0d846c;
+    --primary-color-light:#e9f7f7;
+    --secondary-color:#fb923c;
+    --text-dark:#333333;
+    --text-light:#767268;
+    --white:#ffffff;
+    --max-width:1200px;
+}
+
+
+.section_container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+.section_header{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+.btn{
+    padding: .75rem 2rem;
+    outline:none;
+    border:none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: var(--white);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+
+}
+body {
+    font-family:"Poppins",sans-serif;
+}
+
+
+
+header{
+    background-image:Linear-gradient(to right,
+    rgba(18, 172, 142, .9),
+    rgba(18,172,142, .7)
+
+    ),
+    url(" assests/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav_container{
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+justify-content:space-between;
+}
+
+.nav_logo{
+    color: var(--secondary-color);
+
+
+}
+.nav_links{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+
+
+
+.link a{
+    padding: 0.5rem;
+    color: var(--primary-color-light);
+
+}
+.link a:hover{
+    color: var(--white);
+}
+
+        
+
+
+
+
+.header_container{
+    display: flex;
+    align-items:center;
+    gap: 5rem;
+}
+
+.header_container h1{
+    margin-bottom: 1rem;
+    max-width:900px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color:var(--secondary-color);
+}
+
+.header_container p {
+    margin-bottom: 2rem;
+    color: var(--primary color-dark);
+
+}
+
+.header_form{
+    width:100%;
+    max-width:350px;
+}
+
+
+.header_form form{
+    display:grid;
+    gap: 2rem;
+    padding:5rem;
+    background-color:var(--text-light);
+    border-radius:100px;
+    box-shadow:5px 5px 20px rgba(red,green,pink,alpha);
+
+}
+.header_form input{
+    padding: 2rem;
+    outline:#fb923c;
+    border:#333333;
+    font-size: 2rem;
+    color:antiquewhite;
+    background-color:aqua;
+    border-radius:6px;
+    
+}
+
+
+
+
+
+
